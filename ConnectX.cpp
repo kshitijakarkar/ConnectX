@@ -5,7 +5,6 @@
 // sequential pieces (x) it takes to win the game
 ConnectX::ConnectX(int wide, int high, int x)
 {   
-	//invalid input resets everything to default settings
 	if( wide <= 0 || high <= 0 || x <= 0)
 	{
 		wide=DEFAULT_WIDTH;
