@@ -120,3 +120,9 @@ void ConnectX::placePiece(int column)
 
 	toggleTurn();
 }
+
+
+int main()
+{
+   return 0;
+}
