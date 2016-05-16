@@ -2,7 +2,8 @@
 #include <iostream>
 
 // constructor provides customized dimensions and number of
-// sequential pieces (x) it takes to win the game
+//
+// sequential      pieces (x) it takes to win the game
 ConnectX::ConnectX(int wide, int high, int x)
 {   
 	if( wide <= 0 || high <= 0 || x <= 0)
